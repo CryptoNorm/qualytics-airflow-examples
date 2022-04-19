@@ -36,32 +36,13 @@ AUTH0_CLIENT_SECRET = "[You Client Secret]"
 **/qualytics/scan_functions/scan_data.py** : Calls Qualytics REST API to initation a SCAN operation
 >  Note: The Qualytics code requires the following python modules:  jose, dotenv, requests, json
 
-**/snowflake/DDL/create_landing_stage_tables.sql**: Creates 
+**/snowflake/DDL/create_landing_stage_tables.sql**: Creates BRONZE & SILVER tables
 
 # Airflow Server
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ### Setup
 >  - Install airflow.providers.snowflake.operators.snowflake on your Airflow server
 >  - Configure Airflow Connections for Snowflake
-
-
-
-
-
-
-# Snowflake
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-# AWS
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-# Qualytics
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 
 
